@@ -1,0 +1,138 @@
+.contactForm {
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(255, 255, 255);
+}
+.contactTitle  {
+padding:40px;
+display: flex;
+justify-content: space-between;
+}
+.contactTitle h2 {
+    text-transform: capitalize;
+    color: rgb(164, 164, 164);
+}
+.contactTitle h1 {
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.call {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: rgb(109, 109, 109);
+}
+
+.formItems {
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.formLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+
+}
+.leftText {
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+  
+}
+.leftText input {
+    width: 180px;
+    margin-left: 5px;
+    padding-left: 5px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.leftText input:focus {
+    outline: none;
+}
+.leftdesc h4 {
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    color: rgb(116, 116, 116);
+}
+.leftdesc input {
+    width: 250px;
+    margin-left: 5px;
+    padding-left: 5px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.leftdesc input:focus {
+    outline: none;
+}
+.leftmail {
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+
+}
+.leftmail input {
+    width: 180px;
+    margin-left: 5px;
+    padding-left: 5px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.leftmail input:focus {
+    outline: none;
+}
+.btnContact {
+    font-size: 14px;
+    font-family: 'Josefin Sans',sans-serif;
+    text-transform: capitalize;
+    border: 0;
+    border-bottom: 1px solid #000;
+    
+}
+.btnContact:hover{
+    outline: none;
+    border-bottom: 1px solid steelblue;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.formRight {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border: 1px solid rgb(218, 218, 218);
+    width: 40%;
+    padding: 30px;
+}
+.formRight input{
+    width: 250px;
+    margin-left: 5px;
+    padding-left: 5px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+}

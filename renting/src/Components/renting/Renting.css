@@ -1,0 +1,227 @@
+
+.rentingTitle {
+    background-image: url("image/house13.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    
+    
+}
+.rentingTitle>h2 {
+    padding-top: 130px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 34px;
+    text-transform: capitalize;
+    color: #ddd;
+
+}
+.rentingTitle>p {
+    padding-top: 20px;
+    color: #ddd;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+.btnDest {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    border: 0;
+}
+.rentingLists {
+    width: 100%;
+    height: 320vh;
+}
+.rentingText {
+    text-align: center;
+    padding-top: 100px;
+    
+
+}
+.rentingText>h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    color: steelblue;
+    text-transform: capitalize;
+}
+.rentingText>p {
+    color:#333;
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.vacation {
+    color: rgb(40, 65, 65);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.rentingPopUp {
+   
+    width: 100%;
+    height: 150vw;
+}
+.listOne, .listTwo, .listThree, .listFour, .listFive, .listSix {
+    width: 75%;
+    height: 43vh;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.rentingRight>h3 {
+    text-transform: capitalize;
+    padding-top: 20px;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.rentingRight>span {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    text-transform: capitalize;
+    font-size: 11px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(164, 164, 164);
+}
+.rightLocation {
+    font-size: 11px;
+    
+}
+.rentingRight>p{
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.rightHorizontal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    gap: 50px;
+   
+}
+.rightIcons {
+    gap: 7px;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    color: rgb(119, 118, 118);
+    
+}
+.userIcon  {
+    font-size: 14px;
+    color: rgb(185, 185, 185);
+}
+.users {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    padding-top: 2px;
+    color: rgb(119, 118, 118);
+}
+.rightPrice {
+    
+    color: #616161;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.btnBuy {
+    width: 130px;
+    height: 12px;
+    position: relative;
+    top: 190px;
+    left: -15px;
+    background-color: rgb(40, 65, 65);
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    border: 0;
+    cursor: pointer;
+    
+}
+.link {
+    color: #fff;
+}
+.link:hover {
+    text-decoration: underline;
+    color: #ddd;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    cursor: pointer;
+}
+.rentingHomeImg {
+    width:340px;
+    height: 245px;
+    object-fit: cover;
+
+}
+.rentingJoin {
+    color: #fff;
+    width: 100%;
+    height: 60vh;
+    background-color: steelblue;
+   text-align: center;
+   margin-top: 250px;
+   
+ }
+  .rentingJoinItem {
+    /* background-color:rgb(40, 65, 65); */
+    height: 80%;
+   }
+   .rentingJoinItem > h2 {
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    line-height: 1.5;
+   }
+   .rentingJoinInput {
+    width: 30%;
+    height: 25px;
+    font-size: 12px;
+    font-family: 'varela Round', sans-serif;
+    padding-left: 10px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  .rentingJoinInput:focus{
+    outline: none;
+  }
+   .btnrentingJoin {
+    margin-left: 5px;
+    height: 16px;
+    border: 0;
+    background-color:rgb(40, 65, 65);
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+   }
+   .iconrentingEnv {
+    padding-top: 70px;
+    font-size: 30px;
+   }
+
